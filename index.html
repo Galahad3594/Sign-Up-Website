@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- 
+Name: Jeremy Hoff
+Assignment: 3 Page Sign Up Form
+-->
+
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/screen.css" media="screen">
+    </head>
+    <body>
+        <div>
+            MySite <span>Home About Contact</span>
+        </div>
+        <h1>Welcome!</h1>
+        <h6>Create an account to get started.</h6>
+        <form action="pages/form.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input class="button" type="submit" value="Sign Up">
+        </form>
+        <h6>Already have an account? <a href="login.html">Log in</a></h6>
+    </body>
+</html>

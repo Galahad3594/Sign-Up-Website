@@ -1,0 +1,104 @@
+/*
+Name: Jeremy Hoff
+Assignment: Signup Form CSS
+*/
+
+body {
+    background-color: white;
+}
+
+div {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    word-spacing: 15px;
+    text-align: center;
+}
+
+span {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.div2 {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    word-spacing: 15px;
+    text-align: center;
+}
+
+.div3 {
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    word-spacing: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h6 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.button2 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.button3 {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+p {
+    text-align: center;
+    color: black;
+}
